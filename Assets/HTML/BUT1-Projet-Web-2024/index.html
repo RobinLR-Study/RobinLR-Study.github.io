@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>La nature a du goût</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <nav>
+        <img class="logo" src="IMG/logo-blanc.svg" width="634" height="175">
+        <div class="menu">
+            <span><a href="#accueil">Accueil</a></span>
+            <span><a href="#menu">Menu</a></span>
+            <span><a href="#histoire">Histoire</a></span>
+            <span><a href="#intervention">Intervention</a></span>
+            <form class="language-form"><img src="IMG/language-translation-svgrepo-com.svg" width="32" height="32">
+                <input onclick="setlanguage()" type="radio" id="fr" name="language" value="Français">
+                <label for="fr"><img src="IMG/Flag_of_France.svg" alt="Français" width="45" height="30"> </label>
+                <input onclick="setlanguage()" type="radio" id="en" name="language" value="English">
+                <label for="en"><label for="fr"><img src="IMG/Flag_of_the_United_Kingdom.svg" width="45" height="30" alt="English"> </label>
+            </form>
+        </div>
+    </nav>
+    <div>
+        <img class="start-img" src="IMG/image-article-la-gazette-compressed.jpg">
+        <h2 id="accueil" class="title">Food-truck en baie de somme</h2>
+        <p class="text">
+            La Nature a du gôut est un foodtruck français ayant comme objectif d’offrir un moment convivial et plaisant pour vos événements publiques, vos séminaires ou vos soirées. Nous proposons un menu variant avec les saisons, liant street food et plantes dans le respect de l’environnement afin de vous montrer que la nature a beaucoup à vous offrir et à vous faire décourvrir.
+        </p>
+    </div>
+    <div id="menu">
+        <h2 class="title">Menu</h2>
+            <img class="menu-img1" src="IMG/20211211_132647-scaled.jpg" width="640" height="853">
+            <img class="menu-img2" src="IMG/20221123_135351-scaled.jpg" width="640" height="853">
+            <br>
+        <div class="list">
+            <ul><h3>Plats</h3>
+                <li>Saucisses aux herbes, oignons confits sur avocette,</li>
+                <li>Burger aux salicornes</li>
+                <li>Gaufre de Rollot ou de chèvre frais</li>
+                <li>Boudin blanc d’épiaire</li>
+                <li>Terrine du moment</li>
+                <li>Sushi, maki de la baie</li>
+                <li>Croquettes de crevettes grises et égopode</li>
+            </ul>
+        </div>
+        <br>
+        <div class="list">
+            <ul> <h3>Desserts</h3>
+                <li>Bouquet glacé</li>
+                <li>Tarte du moment</li>
+                <li>Floraison de desserts</li>
+                <li>Cookies fleuris</li>
+            </ul>
+        </div>
+        <br>
+        <div class="list">
+            <ul> <h3>Boissons</h3>
+                <li>Thé glacé maison</li>
+                <li>Jus de fruits</li>
+                <li>Eaux, cidre, bières, vins et vins aux plantes de la baie…</li>
+            </ul>
+        </div>
+    </div>
+    <br>
+    <div id="histoire">
+        <h2 class="title">Notre histoire</h2>
+        <img class="story-img" src="IMG/77142107_2461449324079892_2361481059243130880_n.jpg" width="480" height="480">
+        <p class="text">
+            Après ses études en restauration à l’école d’hôtellerie de Saint Martin à Amiens et à l’école d’hôtellerie de Jeanne d’Arc à Aulnoye-Aymeries, Dupont Ludovic commença sa carrière en tant que cuisinier à l’hôtel Savoy à Londres, puis en tant que chef dans différents restaurants en Françe et à l’étranger. Passionné de jardinage et de cueillette, il souhaite désormais partager sa passion de la cuisine et de la nature au plus grand nombre.
+        </p>
+    </div>
+    <div id="intervention">
+        <h2 class="title">Nos intervention dans les médias</h2>
+        <iframe class="video" width="854" height="480" src="https://www.youtube.com/embed/AI3jTRtPvaM?si=vcgwnrNpV2PKEw9z" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <br>
+        <iframe class="video" width="854" height="480" src="https://www.youtube.com/embed/wkkC3EErqI4?si=s1_-uKkqRF_axb_b" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <br>
+        <p class="link"><a href="https://france3-regions.francetvinfo.fr/hauts-de-france/picardie/somme/abbeville-food-truck-ludovic-dupont-est-jardin-commestible-771445.html">France 3 - Abbeville : le food truck de Ludovic Dupont est un jardin commestible</a></p>
+        <iframe class="video" width="854" height="480" src="https://embed.francetv.fr/5ef81f49273cf8ae6d96677d73bc24da" frameborder="0" scrolling="no" allowfullscreen></iframe>
+        <br>
+        <footer>
+            <div class="footer-content">
+                <span class="mail">nagdupont@gmail.com</span>
+                <span class="address"><img class="home-icon" src="IMG/icons8-home.svg" width="18" height="18"> 4 rue du Grand Marais, 80100 Abbeville</span>
+                <br>
+                <span class="phone">
+                    <img class="phone-icon" src="IMG/reshot-icon-phone-XVG9DMYSLJ.svg" width="18" height="18">
+                    03 22 24 17 22</span>
+                <span class="social">
+                    Suivez nous sur:
+                    <a href="https://www.instagram.com/lanatureadugout/"> 
+                        <img class="social-icons" src="IMG/icons8-instagram.svg" width="80" height="80">
+                    </a>
+                    <a href="https://www.facebook.com/people/La-nature-a-du-go%C3%BBt/100057434171996/">
+                        <img class="social-icons" src="IMG/icons8-facebook-nouveau.svg" width="80" height="80">
+                    </a>
+                </span>
+                <img class="logo-footer" src="IMG/logo-blanc.svg" width="317" height="87">
+            </div>
+        </footer>   
+        </html>

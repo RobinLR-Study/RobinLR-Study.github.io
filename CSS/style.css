@@ -1,0 +1,79 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-image: url('../Assets/IMG/78696.jpg');
+}
+.badge {
+    display: flex;
+}
+
+.navbar, .navbar-brand {
+    font-size: 20pt !important; 
+}
+#banner {
+  width: 100%;
+  height: auto;
+  margin-top: 4%;
+}
+#profile {
+    width: 30%;
+    height: auto;
+    padding: 0 !important;
+}
+#profile-text {
+    margin-top: 5% !important;
+}
+.badge-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 20px;
+    flex-wrap: wrap;
+}
+
+/* Badges systèmes responsives */
+.badge-row .badge {
+        white-space: normal;
+        word-break: break-word;
+        text-align: center;
+        min-width: 0;
+        max-width: 100%;
+        overflow-wrap: break-word;
+        padding-left: 0.5em;
+        padding-right: 0.5em;
+        background-color: white !important;
+}
+.card-body .btn-primary {
+    height: 2.5rem;
+    width: 12rem;
+    font-weight: bolder !important;
+}
+
+@media (max-width: 600px) {
+    .badge-row .badge {
+        font-size: 1rem !important;
+        padding: 0.5em 0.3em !important;
+    }
+}
+@keyframes intro {
+  from {opacity: 0; top:30px;}
+  to {opacity: 1; top:0px;}
+}
+html, body {
+  animation: intro 1s ease-out;
+  position: relative;
+}
+
+@font-face {
+  font-family: SketchArt; /* set name */
+  src: url(../Assets/FONT/Sketch_Art.otf); /* url of the font */
+}
+#font {
+  font-family: SketchArt !important;
+  position: relative;
+  top: 5% !important;
+  left: 1%;
+}

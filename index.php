@@ -1,0 +1,1 @@
+<?php header("Location: ./HTML/portfolio.html"); ?>
